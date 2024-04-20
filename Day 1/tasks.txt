@@ -1,0 +1,25 @@
+Task 1
+
+- Run a container using hello-world image.
+- What’s the container status? & Explain the reason!
+- How to start the stopped container?
+- How to remove the container?
+- How to remove the image?
+
+Task 2
+
+- Run a container with ubuntu image in an interactive mode.
+- Touch a file named hello-docker in the container.
+- Stop the container and remove it.
+- What happened to hello-docker file?, Why?
+- Remove all stopped containers
+- Bonus: try to remove them in one command.
+
+Task 3
+
+- Create a local file named index.html contains your name.
+- Write a Dockerfile and use nginx:alpine as a base image, then copy
+  index.html (from local) to this path /usr/share/nginx/html/index.html (inside the image).
+- Build a new Docker image from the above Dockerfile and tag it with this pattern nginx-your-name.
+- Run a container with the new image and expose it to be 8088:80.
+- Open your browser on localhost:8088 to check everything is okay.
